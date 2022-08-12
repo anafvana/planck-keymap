@@ -50,7 +50,9 @@ For this keymap: LOWER + backspace
 
 ## 8) Flash the keyboard
 
+```
 qmk flash -kb <keyboard-name> -km <keymap-name>
+```
 
 This keymap is for the `planck/ez/glow` keyboard
 
@@ -58,7 +60,7 @@ This keymap is for the `planck/ez/glow` keyboard
 
 ### Known issues
 
-If you are missing dependencies that cannot be automatically found with Homebrew add the taps manually and retry:
+If you are missing dependencies that cannot be automatically found with Homebrew, add the taps manually and retry:
 
 ```
 brew tap osx-cross/avr osx-cross/arm
