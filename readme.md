@@ -56,6 +56,19 @@ This keymap is for the `planck/ez/glow` keyboard
 
 ## More info
 
+### Known issues
+
+If you are missing dependencies that cannot be automatically found with Homebrew add the taps manually and retry:
+
+```
+brew tap osx-cross/avr osx-cross/arm
+brew install avr-gcc arm-none-eabi-gcc@8
+```
+
+Make sure `arm-none-eabi-gcc` is added to your path.
+
+### Links
+
 For all keycodes, see [qmk/qmk_firmware/docs/keycodes](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
 
 For full QMK tutorial, see [docs.qmk.fm](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
