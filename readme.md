@@ -46,7 +46,7 @@ This keymap is for the `planck/ez/glow` keyboard
 
 ## 7) Put keyboard in BOOT mode
 
-For this keymap: LOWER + backspace
+For this keymap: LOWER + RAISE + esc
 
 ## 8) Flash the keyboard
 
@@ -73,4 +73,4 @@ Make sure `arm-none-eabi-gcc` is added to your path.
 
 For all keycodes, see [qmk/qmk_firmware/docs/keycodes](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
 
-For full QMK tutorial, see [docs.qmk.fm](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md)
+For full QMK tutorial, see [docs.qmk.fm](https://docs.qmk.fm/)
